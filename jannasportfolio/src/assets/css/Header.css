@@ -6,14 +6,34 @@ h1 {
     color: #fff;
 }
 
-header {
+.header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
     background-color: #2C2B3C;
+    cursor: default;
+    width: auto;
 }
 
+.image-div {
+    width: 50%;
+    justify-content: center;
+    height: 80%;
+}
+.header-content {
+    max-width: 60%;
+}
+
+.mask {
+    position: absolute;
+    mask-image: url('../images/mask.svg');
+    background: white;
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    color: #B76D68;
+}
+  
 .accent {
     color: #B76D68;
 }

@@ -27,6 +27,7 @@ function App() {
     <>
     <Navbar />
     <Header />
+    <Skills />
     <ProjectsSection projects={projects} />
     <Footer />
     </>
